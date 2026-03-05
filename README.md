@@ -2,6 +2,8 @@
 
 Projeto desenvolvido a partir de um desafio do Frontend Mentor com o objetivo de praticar <br> HTML e CSS recriando um card de perfil com links para redes sociais.
 
+Link do site: https://moiseslana.github.io/Card_Profile/
+
 ## 🚀 Tecnologias
 
 - HTML5
