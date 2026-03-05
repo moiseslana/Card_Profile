@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1f1f1f;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.card .imagem-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+
+.titulo {
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.subtitulo {
+    color: #9dbc41;
+}
+
+.texto {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.botoes button {
+     width: 70%;
+     height: 40px;
+     background-color: #333333;
+     border-radius: 10px;
+     border: none;
+
+}
+
+.botoes button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.botoes button:hover {
+    background-color: #9dbc41;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
